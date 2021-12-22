@@ -4,7 +4,7 @@
   "description": "A module that expands the given time in it's numeric english form.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
