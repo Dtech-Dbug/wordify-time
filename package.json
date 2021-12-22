@@ -1,0 +1,20 @@
+{
+  "name": "wordify-time",
+  "version": "1.0.0",
+  "description": "A module that expands the given time in it's numeric english form.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dtech-Dbug/wordify-time.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dtech-Dbug/wordify-time/issues"
+  },
+  "homepage": "https://github.com/Dtech-Dbug/wordify-time#readme"
+}
