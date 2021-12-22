@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/Dtech-Dbug/wordify-time/issues"
   },
-  "homepage": "https://github.com/Dtech-Dbug/wordify-time#readme"
+  "homepage": "https://github.com/Dtech-Dbug/wordify-time#readme",
+  "dependencies": {
+    "jest": "^27.4.5"
+  }
 }
