@@ -16,3 +16,8 @@ function convertNumberToEnglishString(numericTime) {
     }
   }
 }
+
+module.exports = {
+  deStructureTimeIntoHoursAndMinutes,
+  convertNumberToEnglishString,
+};
