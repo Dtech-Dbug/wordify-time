@@ -3,7 +3,7 @@ const {
   convertNumberToEnglishString,
 } = require("./utils/helpers");
 
-function takeTheTime(timeInString) {
+function wordifyTIme(timeInString) {
   let timeToldInString;
   let diffInMinutes = 0;
 
@@ -32,11 +32,11 @@ function takeTheTime(timeInString) {
   return timeToldInString;
 }
 
-console.log(takeTheTime("8:45"));
+console.log(wordifyTIme("8:45"));
 // fifteen to nine
 
-console.log(takeTheTime("8:23"));
+console.log(wordifyTIme("8:23"));
 //Twenty-Three passed Eight
 
-console.log(takeTheTime("0:45"));
+console.log(wordifyTIme("0:45"));
 //Fifteen to One
