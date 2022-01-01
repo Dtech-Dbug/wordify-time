@@ -16,14 +16,16 @@ function wordifyTIme(timeInString) {
   // ? based on mins diff : phrase the time
   let diff;
 
-  // TODO: for half passed cases
+  // TODO: for to be cases e.g 8:45 = 15 to 9;
+
   if (intMinutes > 30) {
     diff = Math.abs(intMinutes - 60);
     timeToldInString = `${convertNumberToEnglishString(
       String(diff)
     )} to ${convertNumberToEnglishString(String(intHours + 1))}`;
   } else {
-    // TODO: for to be cases e.g 8:45 = 15 to 9;
+    // TODO: for half passed cases
+
     timeToldInString = `${convertNumberToEnglishString(
       String(intMinutes)
     )} passed ${convertNumberToEnglishString(String(intHours))}`;
