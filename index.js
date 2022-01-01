@@ -4,8 +4,7 @@ const {
 } = require("./utils/helpers");
 
 function wordifyTIme(timeInString) {
-  let timeToldInString;
-  let diffInMinutes = 0;
+  let timeDifferenceInWords;
 
   // ! edge cases
   if (timeInString === "0:00") return "mid-night";
@@ -20,18 +19,18 @@ function wordifyTIme(timeInString) {
 
   if (intMinutes > 30) {
     diff = Math.abs(intMinutes - 60);
-    timeToldInString = `${convertNumberToEnglishString(
+    timeDifferenceInWords = `${convertNumberToEnglishString(
       String(diff)
     )} to ${convertNumberToEnglishString(String(intHours + 1))}`;
   } else {
     // TODO: for half passed cases
 
-    timeToldInString = `${convertNumberToEnglishString(
+    timeDifferenceInWords = `${convertNumberToEnglishString(
       String(intMinutes)
     )} passed ${convertNumberToEnglishString(String(intHours))}`;
   }
 
-  return timeToldInString;
+  return timeDifferenceInWords;
 }
 
 console.log(wordifyTIme("8:45"));
