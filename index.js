@@ -23,11 +23,11 @@ function wordifyTIme(timeInString) {
       String(diff)
     )} to ${convertNumberToEnglishString(String(intHours + 1))}`;
   } else {
-    // TODO: for half passed cases
+    // TODO: for half past cases
 
     timeDifferenceInWords = `${convertNumberToEnglishString(
       String(intMinutes)
-    )} passed ${convertNumberToEnglishString(String(intHours))}`;
+    )} past ${convertNumberToEnglishString(String(intHours))}`;
   }
 
   return timeDifferenceInWords;
@@ -37,7 +37,7 @@ console.log(wordifyTIme("8:45"));
 // fifteen to nine
 
 console.log(wordifyTIme("8:23"));
-//Twenty-Three passed Eight
+//Twenty-Three past Eight
 
 console.log(wordifyTIme("0:45"));
 //Fifteen to One
