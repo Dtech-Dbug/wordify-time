@@ -24,3 +24,11 @@ test("number map", () => {
 test("number map", () => {
   expect(numberMap[4]).toBe("Four");
 });
+
+test("number map", () => {
+  expect(numberMap[5]).toBe("Five");
+});
+
+test("number map", () => {
+  expect(numberMap[8]).toBe("Eight");
+});
