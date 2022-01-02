@@ -12,6 +12,7 @@ function wordifyTIme(timeInString) {
 
   let intHours = Number(deStructureTimeIntoHoursAndMinutes(timeInString)[0]);
   let intMinutes = Number(deStructureTimeIntoHoursAndMinutes(timeInString)[1]);
+
   // ? based on mins diff : phrase the time
   let diff;
 
